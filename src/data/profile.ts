@@ -5,6 +5,10 @@ export const profile: Profile = {
   firstName: 'Kiran',
   lastName: 'Revally',
   position: 'Principal Software Engineer',
+  avatar: {
+    srcPath: 'profile/avatar_1000x1000.jpg',
+    caption: 'Kiran Revally',
+  },
   summary: [
     'Principal Software Engineer focused on enterprise-scale, production-grade web applications.',
     'Specializing in Angular/TypeScript, complex data-driven UIs, and frontend architecture.',
