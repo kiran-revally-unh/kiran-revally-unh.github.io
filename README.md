@@ -1,4 +1,4 @@
-## Kiran Revally Portfolio (based on trekhleb.dev)
+## Kiran Revally Portfolio
 
 This repository contains the source code for [kiran-revally-unh.github.io](https://kiran-revally-unh.github.io),
 the personal portfolio site of **Kiran Revally** (Principal Software Engineer).
