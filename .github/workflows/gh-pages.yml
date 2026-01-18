@@ -1,8 +1,8 @@
-name: Deploy to GitHub Pages
+name: Legacy Deploy to GitHub Pages (disabled)
 
 on:
-  push:
-    branches: [ main ]
+  # Only runnable manually; no automatic deploys from this workflow.
+  workflow_dispatch:
 
 permissions:
   contents: read
