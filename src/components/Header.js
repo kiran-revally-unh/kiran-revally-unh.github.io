@@ -14,6 +14,9 @@ export default function Header() {
               <Link to="/projects">PROJECTS</Link>
             </li>
             <li>
+              <Link to="/publications">PUBLICATIONS</Link>
+            </li>
+            <li>
               <a 
                 href="/Kiran_Revally_Resume.pdf" 
                 target="_blank" 
