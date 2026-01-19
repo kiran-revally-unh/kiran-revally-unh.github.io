@@ -1626,43 +1626,6 @@ button {
   }
 }
 
-  .profile-info h1 {
-    font-size: 36px;
-  }
-
-  .intro-text {
-    padding: 24px;
-  }
-
-  .badges {
-    justify-content: center;
-  }
-
-  .cta-row {
-    justify-content: center;
-  }
-
-  .quick-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .featured-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .nav-links {
-    gap: 16px;
-  }
-
-  .hero {
-    padding: 40px 0 60px;
-  }
-}
-
 /* Publications Page Styles */
 .publications-header {
   text-align: center;
