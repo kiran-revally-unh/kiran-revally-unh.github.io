@@ -18,6 +18,15 @@ export default function Header() {
             </li>
             <li>
               <a 
+                href="/PROJECT_DOCUMENTATION.md" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                DOCS
+              </a>
+            </li>
+            <li>
+              <a 
                 href="/Kiran_Revally_Resume.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
