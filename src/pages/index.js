@@ -141,7 +141,7 @@ export default function IndexPage() {
             {/* LinkedIn Profile Badge */}
             <div className="linkedin-badge-container">
               <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="revally-kiran" data-version="v1">
-                <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/revally-kiran?trk=profile-badge">REVALLY KIRAN</a>
+                <a className="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/revally-kiran?trk=profile-badge"></a>
               </div>
             </div>
           </div>

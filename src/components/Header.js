@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container">
         <nav className="nav">
           <Link to="/" className="logo">
-            Kiran Revally
+            Portfolio
           </Link>
           <ul className="nav-links">
             <li>
