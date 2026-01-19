@@ -61,11 +61,6 @@ export default function Publications() {
                       </div>
                     </div>
                     <div className="card-content">
-                      <div className="publication-meta">
-                        <span className="publication-date">{article.date}</span>
-                        <span className="publication-divider">•</span>
-                        <span className="publication-read-time">{article.readTime}</span>
-                      </div>
                       <h2 className="publication-title">{article.title}</h2>
                       <div className="publication-tags">
                         {article.tags.map((tag, tagIndex) => (
