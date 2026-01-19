@@ -17,13 +17,7 @@ export default function Header() {
               <Link to="/publications">PUBLICATIONS</Link>
             </li>
             <li>
-              <a 
-                href="/PROJECT_DOCUMENTATION.md" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                DOCS
-              </a>
+              <Link to="/documentation">DOCS</Link>
             </li>
             <li>
               <a 
