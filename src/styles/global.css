@@ -305,6 +305,24 @@ button {
   gap: 12px;
 }
 
+/* LinkedIn Badge Container */
+.linkedin-badge-container {
+  margin-top: 24px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.linkedin-badge-container:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent-color);
+}
+
 .cert-badge {
   display: flex;
   align-items: center;
