@@ -48,6 +48,24 @@ button {
   padding: 0 80px;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
 .header {
   padding: 20px 0;
   position: sticky;
@@ -85,6 +103,50 @@ button {
 
 .nav-links a:hover {
   color: var(--accent-color);
+}
+
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    font-size: 13px;
+  }
+  
+  .logo {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 12px;
+  }
+  
+  .nav-links a {
+    font-size: 11px;
+  }
+  
+  .logo {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    flex: 0 0 auto;
+  }
+  
+  .logo {
+    font-size: 13px;
+  }
 }
 
 .hero {
@@ -318,6 +380,7 @@ button {
   background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
   color: var(--text-secondary);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .social-link:hover {
@@ -466,10 +529,70 @@ button {
   box-shadow: 0 4px 16px rgba(9, 105, 218, 0.4);
 }
 
+@media (max-width: 1024px) {
+  .hero {
+    padding: 60px 0 40px;
+    gap: 40px;
+  }
+  
+  .profile-section {
+    gap: 32px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-info h1 {
+    font-size: 42px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     grid-template-columns: 1fr;
     gap: 32px;
+    padding: 40px 0 30px;
+  }
+  
+  .profile-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .profile-info h1 {
+    font-size: 32px;
+  }
+  
+  .profile-info .title {
+    font-size: 16px;
+    justify-content: center;
+  }
+  
+  .bio-highlight {
+    font-size: 15px;
+  }
+  
+  .bio-item,
+  .profile-info .location {
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .badges {
+    justify-content: center;
+  }
+  
+  .cta-row {
+    justify-content: center;
   }
   
   .certifications {
@@ -486,6 +609,55 @@ button {
   
   .featured-project-screenshot {
     max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px 0 20px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+  }
+  
+  .profile-info h1 {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+  
+  .profile-info .title {
+    font-size: 14px;
+  }
+  
+  .bio-highlight {
+    font-size: 14px;
+  }
+  
+  .bio-item,
+  .profile-info .location {
+    font-size: 13px;
+  }
+  
+  .badge {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  
+  .btn {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+  
+  .featured-project-screenshots {
+    height: 220px;
+    padding: 16px;
+  }
+  
+  .featured-project-screenshot {
+    max-width: 140px;
   }
 }
 
@@ -1037,6 +1209,8 @@ button {
   background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
   color: var(--text-color);
+  min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn-primary {
@@ -1137,13 +1311,320 @@ button {
   animation: fadeInUp 0.6s ease-out 0.2s backwards;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 40px;
+  }
+  
+  .nav-links {
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    font-size: 13px;
+  }
+  
+  .logo {
+    font-size: 16px;
+  }
+  
+  .hero {
+    padding: 60px 0 40px;
+    gap: 40px;
+  }
+  
+  .profile-section {
+    gap: 32px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .profile-info h1 {
+    font-size: 42px;
+  }
+  
+  .quick-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .featured-grid,
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+  
+  .nav-links {
+    gap: 12px;
+  }
+  
+  .nav-links a {
+    font-size: 11px;
+  }
+  
+  .logo {
+    font-size: 14px;
+  }
+  
+  .hero {
+    padding: 40px 0 60px;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
   .profile-section {
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 32px 24px;
+    gap: 24px;
   }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .profile-info h1 {
+    font-size: 32px;
+  }
+  
+  .profile-info .title {
+    font-size: 16px;
+    justify-content: center;
+  }
+  
+  .bio-highlight {
+    font-size: 15px;
+  }
+  
+  .bio-item,
+  .profile-info .location {
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  .badges {
+    justify-content: center;
+  }
+  
+  .cta-row {
+    justify-content: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .intro-text {
+    padding: 24px;
+    font-size: 15px;
+  }
+  
+  .quick-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .featured-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-card {
+    max-width: 100%;
+  }
+  
+  .featured-project-content {
+    padding: 20px;
+  }
+  
+  .featured-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+  
+  .header {
+    padding: 16px 0;
+  }
+  
+  .nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .nav-links li {
+    flex: 0 0 auto;
+  }
+  
+  .nav-links a {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  
+  .logo {
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hero {
+    padding: 30px 0 20px;
+  }
+  
+  .profile-section {
+    padding: 0;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+  }
+  
+  .profile-info h1 {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+  
+  .profile-info .title {
+    font-size: 14px;
+  }
+  
+  .bio-highlight {
+    font-size: 14px;
+  }
+  
+  .bio-item,
+  .profile-info .location {
+    font-size: 13px;
+  }
+  
+  .badge {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  
+  .btn {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+  
+  .social-link {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .certifications {
+    padding: 20px;
+  }
+  
+  .cert-badge {
+    padding: 12px;
+  }
+  
+  .cert-image {
+    width: 52px;
+    height: 52px;
+  }
+  
+  .cert-name {
+    font-size: 13px;
+  }
+  
+  .cert-level {
+    font-size: 11px;
+  }
+  
+  .featured-title,
+  .section-title {
+    font-size: 20px;
+  }
+  
+  .featured-project-card {
+    border-radius: 12px;
+  }
+  
+  .featured-project-screenshots,
+  .project-screenshots {
+    height: 220px;
+    padding: 16px;
+  }
+  
+  .featured-project-screenshot,
+  .project-screenshot {
+    max-width: 140px;
+  }
+  
+  .featured-project-content,
+  .project-content {
+    padding: 16px;
+  }
+  
+  .featured-project-header h3,
+  .project-title-wrapper h3 {
+    font-size: 16px;
+  }
+  
+  .featured-project-description,
+  .project-description {
+    font-size: 13px;
+  }
+  
+  .featured-project-badge {
+    font-size: 10px;
+    padding: 4px 10px;
+  }
+  
+  .tag {
+    font-size: 11px;
+    padding: 3px 10px;
+  }
+  
+  .intro-text {
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .stat-card {
+    padding: 16px;
+  }
+  
+  .stat-value {
+    font-size: 18px;
+  }
+  
+  .stat-label {
+    font-size: 12px;
+  }
+  
+  .footer {
+    margin-top: 80px;
+    padding: 32px 0;
+  }
+  
+  .footer-text {
+    font-size: 13px;
+  }
+}
 
   .profile-info h1 {
     font-size: 36px;
