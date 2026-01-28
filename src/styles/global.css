@@ -307,29 +307,20 @@ button {
 
 /* LinkedIn Badge Container */
 .linkedin-badge-container {
-  margin-top: 16px;
-  padding: 12px;
+  margin-top: 24px;
+  padding: 20px;
   background: white;
-  border-radius: 8px;
+  border-radius: 12px;
   border: 2px solid var(--border-color);
   display: flex;
   justify-content: center;
   transition: all 0.3s ease;
-  max-width: 240px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .linkedin-badge-container:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
   border-color: var(--accent-color);
-}
-
-/* Scale down the LinkedIn badge widget */
-.linkedin-badge-container .LI-profile-badge {
-  transform: scale(0.85);
-  transform-origin: center;
 }
 
 .cert-badge {

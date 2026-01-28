@@ -41,10 +41,10 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Enterprise Angular UI System',
+    title: 'Enterprise React UI System',
     date: '2020 - Present',
-    description: 'Large-scale Angular application architecture for enterprise finance platforms. Includes design system, reusable components, state management with NgRx, and comprehensive test coverage.',
-    tags: ['Angular', 'TypeScript', 'NgRx', 'Enterprise'],
+    description: 'Large-scale React application architecture for enterprise finance platforms. Includes design system, reusable components, state management with Redux, and comprehensive test coverage.',
+    tags: ['React', 'TypeScript', 'Redux', 'Enterprise'],
     icon: '🏢',
     gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)'
   },

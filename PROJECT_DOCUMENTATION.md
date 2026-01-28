@@ -22,7 +22,7 @@ After 8+ years in enterprise frontend development, I wanted something that truly
 - Recruiters who need to quickly assess my skills
 - Hiring managers evaluating my technical depth
 - Fellow engineers who might want to collaborate
-- Anyone interested in my work with AWS, Angular, TypeScript, and cloud architecture
+- Anyone interested in my work with AWS, React, TypeScript, and cloud architecture
 
 ---
 
@@ -162,7 +162,7 @@ The homepage had to answer three questions in 5 seconds:
 **My Approach**:
 - **Hero section**: Profile photo, name, current role at Capgemini
 - **Quick bio**: "Architecting enterprise-scale frontend systems..." - immediately establishes expertise
-- **Key skills**: Angular, TypeScript, React, E2E automation, CI/CD
+- **Key skills**: React, TypeScript, E2E automation, CI/CD
 - **Location**: Boston, MA (important for recruiters filtering by location)
 - **CTAs**: Three clear actions - View Projects, Download Resume, Contact
 

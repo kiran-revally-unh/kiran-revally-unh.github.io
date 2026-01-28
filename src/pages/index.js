@@ -26,7 +26,7 @@ export default function IndexPage() {
                 </div>
                 <div className="bio-details">
                   <span className="bio-item">🎯 8+ years in production environments</span>
-                  <span className="bio-item">⚡ Angular • TypeScript • React specialist</span>
+                  <span className="bio-item">⚡ React • TypeScript specialist</span>
                   <span className="bio-item">🚀 E2E automation & CI/CD expert</span>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export default function IndexPage() {
 
               <div className="badges">
                 <span className="badge">Enterprise Frontend</span>
-                <span className="badge">Angular • TypeScript</span>
+                <span className="badge">React • TypeScript</span>
                 <span className="badge">UI Systems</span>
                 <span className="badge">Automation</span>
               </div>
